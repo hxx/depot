@@ -4,9 +4,6 @@ require 'capistrano/setup'
 # Includes default deployment tasks
 require 'capistrano/deploy'
 
-# Require everything (bundler, rails/assets and rails/migrations)
-require 'capistrano/rails'
-
 # Includes tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:
