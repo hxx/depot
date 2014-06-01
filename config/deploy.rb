@@ -29,7 +29,7 @@ set :deploy_to, '/var/www/depot.huangxingxing.info'
 # set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
 # Default value for default_env is {}
-set :default_env, { path: "/home/deploy/.rvm/rubies/ruby-2.1.1/bin:$PATH" }
+set :default_env, { path: "/usr/bin/:$PATH" }
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
